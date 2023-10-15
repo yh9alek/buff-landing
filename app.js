@@ -20,7 +20,7 @@ document.querySelector('#close').onclick = () => {
 }
 
 //swiper script
-const swiper = new Swiper(".home-slider", {
+const home_swiper = new Swiper(".home-slider", {
   spaceBetween: 30,
   centeredSlides: true,
   autoplay: {
@@ -32,4 +32,32 @@ const swiper = new Swiper(".home-slider", {
     clickable: true,
   },
   loop: true,
+});
+
+const review_swiper = new Swiper(".review-slide", {
+  spaceBetween: 20,
+  centeredSlides: true,
+  autoplay: {
+    delay: 7500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  loop: true,
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    640: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
 });
