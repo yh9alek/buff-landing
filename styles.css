@@ -664,6 +664,11 @@ section:nth-child(even) {
     animation: changeColor 1s linear 0s infinite normal;
 }
 
+.pag {
+    text-align: center;
+    padding: 1rem;
+}
+
 @keyframes rotate {
     from {
         transform: rotate(0);
@@ -727,6 +732,40 @@ section:nth-child(even) {
     }
 }
 
+@media screen and (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+
+    header {
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    html {
+        font-size: 50%;
+    }
+
+    header {
+        padding: .8rem 1.8rem;
+    }
+
+    .home .home-slider .slide .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home .home-slider .slide .image img {
+        width: 60%;
+    }
+
+    .pag {
+        padding-top: 3rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     header .icons #menu-bars {
         display: inline-block;
@@ -756,5 +795,31 @@ section:nth-child(even) {
 
     .home .home-slider .slide .content h3 {
         font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #search-form {
+        padding: 20%;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    #search-form {
+        padding: 30%;
+    }
+
+    #search-form #search-box {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 282px) {
+    .home .home-slider .slide .content h3 {
+        font-size: 4rem;
+    }
+    
+    .home .home-slider .slide .content p {
+        font-size: 1.5rem;
     }
 }

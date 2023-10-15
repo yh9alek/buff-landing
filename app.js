@@ -42,7 +42,7 @@ const home_swiper = new Swiper(".home-slider", {
     disableOnInteraction: false,
   },
   pagination: {
-    el: ".swiper-pagination",
+    el: ".home-swiper-pagination",
     clickable: true,
   },
   loop: true,
@@ -54,10 +54,6 @@ const review_swiper = new Swiper(".review-slide", {
   autoplay: {
     delay: 7500,
     disableOnInteraction: false,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
   },
   loop: true,
   breakpoints: {
