@@ -75,3 +75,13 @@ const review_swiper = new Swiper(".review-slide", {
     },
   },
 });
+
+const loader = () => {
+  document.querySelector('.loader-container').classList.add('fade-out');
+}
+
+const fadeOut = () => {
+  setInterval(loader, 250);
+}
+
+window.onload = fadeOut;
