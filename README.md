@@ -3,4 +3,4 @@
 
 <p>Buff Restaurant Landing Page with HTML, CSS and JavaScript. Page template</p>
 
-<a href="#">![Go to Web Page](https://img.shields.io/badge/Go%20to%20Page-265DB0?style=for-the-badge&logo=proton%20drive&logoColor=white)</a>
+<a href="https://buff-landing.netlify.app">![Go to Web Page](https://img.shields.io/badge/Go%20to%20Page-265DB0?style=for-the-badge&logo=proton%20drive&logoColor=white)</a>
